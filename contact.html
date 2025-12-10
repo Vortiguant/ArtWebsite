@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Commissions | Sunita Kamal Art</title>
+  <meta name="description"
+    content="Securely request commissions, collaborations, or workshops with Sunita Kamal of Art and sunny things. Includes direct Instagram messaging and newsletter signup." />
+  <meta name="keywords"
+    content="Sunita Kamal contact, Art and sunny things commissions, warm art commissions, direct Instagram message" />
+  <meta property="og:title" content="Contact Sunita Kamal" />
+  <meta property="og:description"
+    content="Submit secure commission requests, email Sunita, or start a direct Instagram message." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://artandsunnythings.com/contact.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@400;500;600&family=Patrick+Hand&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/images/art-and-sunny-things-logo.png" />
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="assets/images/art-and-sunny-things-logo.png"
+        alt="Art and Sunny Things logo" width="140" height="140" loading="lazy" /></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme" data-theme-toggle>
+      <span class="toggle-icon sun">☀️</span>
+      <span class="toggle-icon moon">🌙</span>
+    </button>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero" id="commission">
+      <p class="eyebrow">Sunita Kamal Art · Art and sunny things</p>
+      <h1>Commissions & Collaborations</h1>
+      <p>Share your space, palette, and story. Sunita will tailor a custom piece made with sunshine just for you.
+      </p>
+    </section>
+
+    <section class="contact-grid">
+      <form class="contact-form" id="contact-form" aria-label="Commission inquiry form">
+        <label>
+          Full Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Instagram Handle
+          <input type="text" name="instagram" placeholder="@artandsunnythings" />
+        </label>
+        <label>
+          Project Details
+          <textarea name="project" rows="5" placeholder="Describe your space, dimensions, deadline, and inspiration."
+            required></textarea>
+        </label>
+        <div class="form-row">
+          <label>
+            Desired Dimensions (inches)
+            <input type="text" name="dimensions" placeholder="48 x 60" />
+          </label>
+          <label>
+            Budget (USD)
+            <input type="number" name="budget" min="500" step="50" />
+          </label>
+        </div>
+        <input type="text" name="suntrap" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true" />
+        <button type="submit" class="btn primary">Submit Request</button>
+        <p class="form-message" id="contact-message" role="status" aria-live="polite"></p>
+        <p class="secure-note">Submissions are encrypted, stored securely, and reviewed by Sunita only. Expect a
+          confirmation email within 24 hours.</p>
+      </form>
+
+      <aside class="contact-card" aria-label="Direct contact options">
+        <h2>Connect</h2>
+        <ul>
+          <li>Email: <a href="mailto:hello@artandsunnythings.com">hello@artandsunnythings.com</a></li>
+          <li>Direct Instagram Message: <a class="btn ghost ig-direct"
+              href="https://www.instagram.com/direct/new/?username=artandsunnythings" target="_blank"
+              rel="noopener">Message @artandsunnythings</a></li>
+          <li>Newsletter: <a href="#newsletter-anchor">Sign up below</a></li>
+          <li>Social: <a href="https://www.instagram.com/artandsunnythings" target="_blank"
+              rel="noopener">@artandsunnythings</a></li>
+        </ul>
+        <div class="social-share">
+          <button class="btn text share-btn" type="button"
+            data-share-url="https://artandsunnythings.com/contact.html">Share contact page</button>
+        </div>
+        <div class="contact-direct">
+          <p>Prefer WhatsApp audio memos or a Zoom studio tour? Mention it in the form and Sunita will schedule a time
+            that matches your timezone.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="newsletter" id="newsletter-anchor" aria-label="Email subscription">
+      <div>
+        <h2>Studio Letters</h2>
+        <p>Monthly reflections on studio life, travel sketchbooks, and exclusive shop previews.</p>
+      </div>
+      <form class="newsletter-form" id="contact-newsletter">
+        <label for="contact-newsletter-email" class="sr-only">Email address</label>
+        <input type="email" id="contact-newsletter-email" name="email" placeholder="you@email.com" required />
+        <input type="text" name="suntrap" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true" />
+        <button type="submit" class="btn primary">Join</button>
+      </form>
+      <p class="form-message" id="contact-newsletter-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h2>Sunita Kamal Art</h2>
+        <p>Art and sunny things · Crafted in Mumbai · Based in Abu Dhabi · Working worldwide.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Explore</h3>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <div class="footer-links">
+          <a href="mailto:hello@artandsunnythings.com">hello@artandsunnythings.com</a>
+          <a href="https://www.instagram.com/artandsunnythings" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Sunita Kamal Art. All rights reserved.</p>
+      <a href="#" class="btn text" id="analytics-optout">Opt out of analytics</a>
+    </div>
+  </footer>
+
+  <script src="js/toast.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/forms.js" defer></script>
+  <script src="js/analytics.js" defer></script>
+</body>
+
+</html>

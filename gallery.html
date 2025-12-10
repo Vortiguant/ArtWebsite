@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Sunita Kamal Art</title>
+  <meta name="description"
+    content="Browse organized collections of Sunita Kamal's Art and sunny things portfolio with detailed artwork notes, Instagram engagement, and comments." />
+  <meta name="keywords"
+    content="Sunita Kamal gallery, Art and sunny things artworks, sunlit paintings, warm art portfolio" />
+  <meta property="og:title" content="Sunita Kamal Gallery" />
+  <meta property="og:description"
+    content="Explore sun-warmed originals, clay keepsakes, and illustrated cards by Art and sunny things." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://artandsunnythings.com/gallery.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@400;500;600&family=Patrick+Hand&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/images/art-and-sunny-things-logo.png" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Sunita Kamal Art Gallery",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://artandsunnythings.com/art/?piece=sunrise-horizons",
+          "item": {
+            "@type": "VisualArtwork",
+            "name": "Sunrise Horizons",
+            "artMedium": "Acrylic and natural dyes on cotton canvas",
+            "artform": "Painting",
+            "height": "60 in",
+            "width": "48 in",
+            "dateCreated": "2024"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://artandsunnythings.com/art/?piece=marigold-breeze",
+          "item": {
+            "@type": "VisualArtwork",
+            "name": "Marigold Breeze",
+            "artMedium": "Oil glaze on Belgian linen",
+            "artform": "Painting",
+            "height": "48 in",
+            "width": "36 in",
+            "dateCreated": "2023"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://artandsunnythings.com/art/?piece=terracotta-fields",
+          "item": {
+            "@type": "VisualArtwork",
+            "name": "Terracotta Fields",
+            "artMedium": "Mixed media with clay pigment",
+            "artform": "Painting",
+            "height": "72 in",
+            "width": "60 in",
+            "dateCreated": "2024"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://artandsunnythings.com/art/?piece=koi-drift-trinket-tray",
+          "item": {
+            "@type": "VisualArtwork",
+            "name": "Koi Drift Trinket Tray",
+            "artMedium": "Hand-built clay with underglaze illustration",
+            "artform": "Ceramics",
+            "dateCreated": "2024"
+          }
+        }
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="assets/images/art-and-sunny-things-logo.png"
+        alt="Art and Sunny Things logo" width="140" height="140" loading="lazy" /></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme" data-theme-toggle>
+      <span class="toggle-icon sun">☀️</span>
+      <span class="toggle-icon moon">🌙</span>
+    </button>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <p class="eyebrow">Sunita Kamal Art · Art and sunny things</p>
+      <h1>Gallery</h1>
+      <p>Curated bodies of work organized by mood and medium. Click any piece to zoom, read commentary, review Instagram
+        engagement, share a custom link, and leave feedback.</p>
+    </section>
+
+    <section class="gallery-controls" aria-label="Gallery filters">
+      <label for="category-filter">Filter by category</label>
+      <select id="category-filter">
+        <option value="all">All collections</option>
+      </select>
+      <div class="share-tip">Tip: share any artwork via its custom link icon.</div>
+    </section>
+
+    <section id="gallery-grid" class="gallery-grid" aria-live="polite"></section>
+  </main>
+
+  <template id="art-card-template">
+    <article class="art-card" role="article">
+      <div class="art-media">
+        <img src="" alt="Artwork" loading="lazy" decoding="async" width="900" height="900" />
+        <button class="zoom-btn" type="button" aria-label="Zoom artwork">Zoom</button>
+      </div>
+      <div class="art-info">
+        <h2 class="art-title"></h2>
+        <dl class="art-facts">
+          <div>
+            <dt>Medium</dt>
+            <dd class="art-medium"></dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd class="art-dimensions"></dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd class="art-year"></dd>
+          </div>
+        </dl>
+        <p class="art-commentary"></p>
+        <ul class="art-engagement" aria-label="Instagram engagement metrics">
+          <li>
+            <span>Likes</span>
+            <strong class="engagement-likes"></strong>
+          </li>
+          <li>
+            <span>Comments</span>
+            <strong class="engagement-comments"></strong>
+          </li>
+          <li>
+            <span>Saves</span>
+            <strong class="engagement-saves"></strong>
+          </li>
+        </ul>
+        <div class="art-actions">
+          <button class="btn ghost comment-toggle" type="button">Comments</button>
+          <button class="btn text share-btn" type="button" data-share-url="">Share</button>
+        </div>
+        <div class="comments" hidden aria-live="polite">
+          <div class="existing-comments"></div>
+          <form class="comment-form">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Thoughts
+              <textarea name="message" rows="2" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Post Comment</button>
+          </form>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <div class="modal" id="zoom-modal" aria-hidden="true" role="dialog" aria-label="Artwork zoom viewer">
+    <button class="modal-close" aria-label="Close zoom">×</button>
+    <img src="" alt="Expanded artwork" />
+  </div>
+
+  <script src="js/toast.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+  <script src="js/analytics.js" defer></script>
+</body>
+
+</html>

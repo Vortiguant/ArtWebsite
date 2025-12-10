@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <defs>
+    <linearGradient id="sunny" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB347" />
+      <stop offset="100%" stop-color="#FFCC33" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="60" rx="12" fill="#fff5ea" />
+  <text x="16" y="38" font-family="'Playfair Display', serif" font-size="26" fill="#d07038">Sunita</text>
+  <text x="110" y="38" font-family="'Montserrat', sans-serif" font-size="20" fill="url(#sunny)">Art ✺</text>
+</svg>

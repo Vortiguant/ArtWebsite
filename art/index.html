@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artwork Detail | Sunita Kamal Art</title>
+  <meta name="description" content="Deep dive into individual artworks by Sunita Kamal (Art and sunny things) with commentary, specs, Instagram engagement, and comments." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@400;500;600&family=Patrick+Hand&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="icon" type="image/png" sizes="512x512" href="../assets/images/art-and-sunny-things-logo.png" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="../index.html"><img src="../assets/images/art-and-sunny-things-logo.png" alt="Art and Sunny Things logo" width="140" height="140" loading="lazy" /></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../gallery.html" class="active">Gallery</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Toggle dark mode">
+      <span class="toggle-track" aria-hidden="true">
+        <span class="toggle-thumb"></span>
+        <span class="toggle-icon sun">☀︎</span>
+        <span class="toggle-icon moon">☾</span>
+      </span>
+      <span class="toggle-text">Dark mode</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Sunita Kamal Art · Art and sunny things</p>
+      <h1 id="art-title">Artwork detail</h1>
+      <p id="art-summary">Loading artwork information…</p>
+    </section>
+
+    <section class="art-detail" aria-live="polite">
+      <div class="art-detail-media">
+        <img id="art-image" src="../assets/images/sunrise-horizons.webp" alt="Artwork preview" width="900" height="900" loading="lazy" decoding="async" />
+        <button class="btn ghost" type="button" id="back-to-gallery">← Back to gallery</button>
+      </div>
+      <div class="art-detail-info">
+        <dl class="art-detail-meta">
+          <div>
+            <dt>Medium</dt>
+            <dd id="art-medium">—</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd id="art-dimensions">—</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd id="art-year">—</dd>
+          </div>
+        </dl>
+        <p id="art-commentary">Collector notes will appear here.</p>
+        <div class="art-detail-engagement">
+          <h2>Instagram Engagement</h2>
+          <ul>
+            <li><span>Likes</span><strong id="detail-likes">—</strong></li>
+            <li><span>Comments</span><strong id="detail-comments">—</strong></li>
+            <li><span>Saves</span><strong id="detail-saves">—</strong></li>
+          </ul>
+        </div>
+        <div class="art-detail-share">
+          <button class="btn primary share-btn" type="button" id="share-artwork">Share artwork</button>
+          <a class="btn ghost" id="open-instagram" href="https://www.instagram.com/artandsunnythings" target="_blank" rel="noopener">Discuss on Instagram</a>
+        </div>
+        <div class="comments" id="art-comments" aria-live="polite">
+          <h2>Collector Comments</h2>
+          <div class="existing-comments"></div>
+          <form class="comment-form" id="art-comment-form">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Thoughts
+              <textarea name="message" rows="3" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Post Comment</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="art-empty" id="art-empty" hidden>
+      <p>We couldn’t find that artwork. <a href="../gallery.html">Return to the gallery</a> to browse the full portfolio.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Sunita Kamal Art</strong>
+      <p>Art and sunny things · Crafted in Mumbai · Based in Abu Dhabi · Working worldwide.</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:hello@artandsunnythings.com">hello@artandsunnythings.com</a>
+      <a href="https://www.instagram.com/artandsunnythings" target="_blank" rel="noopener">Instagram</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+    <div class="footer-meta">
+      <p>© <span id="year"></span> Sunita Kamal Art. All rights reserved.</p>
+      <a href="#" class="btn text" id="analytics-optout">Opt out of analytics</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/art-detail.js" defer></script>
+  <script src="../js/analytics.js" defer></script>
+</body>
+</html>

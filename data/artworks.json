@@ -1,0 +1,194 @@
+[
+  {
+    "id": "sunrise-horizons",
+    "title": "Sunrise Horizons",
+    "medium": "Acrylic and natural dyes on cotton canvas",
+    "dimensions": "48 x 60 in",
+    "year": 2024,
+    "category": "Golden Hours",
+    "image": "assets/images/sunrise-horizons.webp",
+    "commentary": "Layered saffron washes fading into blush fields inspired by Jaipur mornings.",
+    "instagram_engagement": {
+      "likes": 8700,
+      "comments": 412,
+      "saves": 963
+    },
+    "slug": "sunrise-horizons"
+  },
+  {
+    "id": "marigold-breeze",
+    "title": "Marigold Breeze",
+    "medium": "Oil glaze on Belgian linen",
+    "dimensions": "36 x 48 in",
+    "year": 2023,
+    "category": "Bloom Studies",
+    "image": "assets/images/marigold-breeze.webp",
+    "commentary": "A study of marigold garlands translated into sweeping marks and dots.",
+    "instagram_engagement": {
+      "likes": 6400,
+      "comments": 188,
+      "saves": 532
+    },
+    "slug": "marigold-breeze"
+  },
+  {
+    "id": "terracotta-fields",
+    "title": "Terracotta Fields",
+    "medium": "Mixed media with clay pigment",
+    "dimensions": "60 x 72 in",
+    "year": 2024,
+    "category": "Landforms",
+    "image": "assets/images/terracotta-fields.webp",
+    "commentary": "Topographic lines mapped from Aravalli foothills at dusk.",
+    "instagram_engagement": {
+      "likes": 7200,
+      "comments": 305,
+      "saves": 601
+    },
+    "slug": "terracotta-fields"
+  },
+  {
+    "id": "saffron-threads",
+    "title": "Saffron Threads",
+    "medium": "Watercolor and silk screen",
+    "dimensions": "24 x 36 in",
+    "year": 2022,
+    "category": "Studies",
+    "image": "assets/images/saffron-threads.webp",
+    "commentary": "Fine lines referencing handloom warp threads catching morning light.",
+    "instagram_engagement": {
+      "likes": 5200,
+      "comments": 140,
+      "saves": 420
+    },
+    "slug": "saffron-threads"
+  },
+  {
+    "id": "desert-bloom",
+    "title": "Desert Bloom",
+    "medium": "Acrylic, chalk pastel",
+    "dimensions": "40 x 40 in",
+    "year": 2023,
+    "category": "Landforms",
+    "image": "assets/images/desert-bloom.webp",
+    "commentary": "Celebration of desert flora emerging after monsoon showers.",
+    "instagram_engagement": {
+      "likes": 4980,
+      "comments": 210,
+      "saves": 387
+    },
+    "slug": "desert-bloom"
+  },
+  {
+    "id": "copper-dawn",
+    "title": "Copper Dawn",
+    "medium": "Oil pastel and acrylic",
+    "dimensions": "30 x 45 in",
+    "year": 2021,
+    "category": "Golden Hours",
+    "image": "assets/images/copper-dawn.webp",
+    "commentary": "First light over Lisbon rooftops translated into copper gradients.",
+    "instagram_engagement": {
+      "likes": 4300,
+      "comments": 165,
+      "saves": 330
+    },
+    "slug": "copper-dawn"
+  },
+  {
+    "id": "clay-fish-tray",
+    "title": "Koi Drift Trinket Tray",
+    "medium": "Hand-built clay with underglaze illustration",
+    "dimensions": "8 x 5 in",
+    "year": 2024,
+    "category": "Clay Keepsakes",
+    "image": "assets/images/desert-bloom.webp",
+    "commentary": "Fish-themed tray with layered cobalt and saffron slips referencing sunlight skipping across water.",
+    "instagram_engagement": {
+      "likes": 3100,
+      "comments": 96,
+      "saves": 220
+    },
+    "slug": "koi-drift-trinket-tray"
+  },
+  {
+    "id": "polar-card-1",
+    "title": "Polar Parade I",
+    "medium": "Gouache and pencil on cotton card stock",
+    "dimensions": "5 x 7 in",
+    "year": 2024,
+    "category": "Holiday Cards",
+    "image": "assets/images/sunrise-horizons.webp",
+    "commentary": "First in the five-card Christmas polar bear series featuring hand-lettered greetings.",
+    "instagram_engagement": {
+      "likes": 2100,
+      "comments": 84,
+      "saves": 190
+    },
+    "slug": "polar-parade-i"
+  },
+  {
+    "id": "polar-card-2",
+    "title": "Polar Parade II",
+    "medium": "Gouache and pencil on cotton card stock",
+    "dimensions": "5 x 7 in",
+    "year": 2024,
+    "category": "Holiday Cards",
+    "image": "assets/images/marigold-breeze.webp",
+    "commentary": "Playful polar bear duo carrying garlands beneath a twilight sky.",
+    "instagram_engagement": {
+      "likes": 2050,
+      "comments": 68,
+      "saves": 175
+    },
+    "slug": "polar-parade-ii"
+  },
+  {
+    "id": "polar-card-3",
+    "title": "Polar Parade III",
+    "medium": "Gouache and pencil on cotton card stock",
+    "dimensions": "5 x 7 in",
+    "year": 2024,
+    "category": "Holiday Cards",
+    "image": "assets/images/saffron-threads.webp",
+    "commentary": "Snow-globe composition with rosy northern lights enveloping a bear family.",
+    "instagram_engagement": {
+      "likes": 1980,
+      "comments": 72,
+      "saves": 160
+    },
+    "slug": "polar-parade-iii"
+  },
+  {
+    "id": "polar-card-4",
+    "title": "Polar Parade IV",
+    "medium": "Gouache and pencil on cotton card stock",
+    "dimensions": "5 x 7 in",
+    "year": 2024,
+    "category": "Holiday Cards",
+    "image": "assets/images/terracotta-fields.webp",
+    "commentary": "Polar bear delivering gifts via aurora-lit ice floes.",
+    "instagram_engagement": {
+      "likes": 2025,
+      "comments": 65,
+      "saves": 150
+    },
+    "slug": "polar-parade-iv"
+  },
+  {
+    "id": "polar-card-5",
+    "title": "Polar Parade V",
+    "medium": "Gouache and pencil on cotton card stock",
+    "dimensions": "5 x 7 in",
+    "year": 2024,
+    "category": "Holiday Cards",
+    "image": "assets/images/copper-dawn.webp",
+    "commentary": "Final card with polar cubs stringing lights around a snowy fir.",
+    "instagram_engagement": {
+      "likes": 2150,
+      "comments": 70,
+      "saves": 185
+    },
+    "slug": "polar-parade-v"
+  }
+]
