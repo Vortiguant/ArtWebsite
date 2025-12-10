@@ -140,6 +140,8 @@ body.theme-dark label {
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 html:focus-within {
@@ -158,14 +160,11 @@ body {
   position: relative;
 }
 
-body.home-page {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-body.home-page::-webkit-scrollbar {
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
   width: 0;
   height: 0;
+  display: none;
 }
 
 body::before {
