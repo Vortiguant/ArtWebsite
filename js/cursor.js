@@ -9,6 +9,9 @@ const cursorOutline = document.querySelector('.cursor-outline');
 // Only active on non-touch devices
 if (window.matchMedia("(pointer: fine)").matches) {
 
+    // Enable the consistent cursor hiding
+    document.body.classList.add('custom-cursor-active');
+
     window.addEventListener("mousemove", (e) => {
         const posX = e.clientX;
         const posY = e.clientY;
@@ -44,9 +47,14 @@ if (window.matchMedia("(pointer: fine)").matches) {
         });
     });
 
-    // Hide default cursor
-    document.body.style.cursor = 'none';
+    // Handle cursor visibility when leaving/entering the window
+    document.addEventListener('mouseleave', () => {
+        cursorDot.style.opacity = '0';
+        cursorOutline.style.opacity = '0';
+    });
 
-    // Re-apply cursor:none to interactables via CSS usually, 
-    // but we can enforce it here if needed, usually CSS is better.
+    document.addEventListener('mouseenter', () => {
+        cursorDot.style.opacity = '1';
+        cursorOutline.style.opacity = '1';
+    });
 }
